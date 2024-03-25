@@ -8,7 +8,7 @@
             Employee em2 = new Employee("Pramindu", "Vishwa", 82500);
             Employee em3 = new Employee("Pradeem", "Madhushan", 78200);
 
-            em1.show();
+            em1.print();
 
 
         }

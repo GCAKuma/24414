@@ -13,7 +13,7 @@
             BasicSalary = bSalary;
         }
 
-        public void show()
+        public void print()
         {
             Console.WriteLine("Name: " + FirstName+ " " + LastName + ", Salary: " + BasicSalary);
         }
