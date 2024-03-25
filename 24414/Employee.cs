@@ -6,11 +6,11 @@
         public string LastName { get; set; }
         public double BasicSalary { get; set; }
 
-        public Employee(string firstName, string lastName, double basicSalary)
+        public Employee(string fName, string lName, double bSalary)
         {
-            FirstName = firstName;
-            LastName = lastName;
-            BasicSalary = basicSalary;
+            FirstName = fName;
+            LastName = lName;
+            BasicSalary = bSalary;
         }
 
         public void show()
